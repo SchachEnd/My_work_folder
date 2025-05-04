@@ -31,6 +31,14 @@
   </div>
 </div>
 
+<h2>🌐Готовые шаблоны сайтов🌐</h2>
+<ul>
+  <li><a href="https://schachend.github.io/Abstract__Website/">Abstract</a></li>
+  <li><a href="https://schachend.github.io/Inno-Vision__Website/">Inno Vision</a></li>
+  <li><a href="https://schachend.github.io/Luxury.car__Website/">Luxury.car</a></li>
+</ul>
+
+
 
 
 <br>
@@ -73,3 +81,10 @@
   <p>🎯 <strong>What matters</strong> — it needs to be comfy and functional!</p>
   </div>
 </div>
+
+<h2>🌐Ready-to-use website templates🌐</h2>
+<ul>
+  <li><a href="https://schachend.github.io/Abstract__Website/">Abstract</a></li>
+  <li><a href="https://schachend.github.io/Inno-Vision__Website/">Inno Vision</a></li>
+  <li><a href="https://schachend.github.io/Luxury.car__Website/">Luxury.car</a></li>
+</ul>
