@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Аренда премиальных автомобилей</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- Стили -->
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <main class="main">
+      <header class="header">
+        <div class="container">
+          <div class="logo">
+            <img src="assets/logo.png" alt="logo">
+          </div>
+          <nav class="menu">
+            <ul>
+              <li>
+                <a href="#cars">НАШ АВТОПАРК</a>
+              </li>
+              <li>
+                <a href="#order">ЗАБРОНИРОВАТЬ</a>
+              </li>
+            </ul>
+          </nav>
+          <a href="tel:+971523898989" class="phone">+971-52-38-989-89</a>
+        </div>
+      </header>
+      <section class="main-content">
+        <div class="container">
+          <div class="main-info">
+            <h1>Покорите дороги за рулем легендарных автомобилей</h1>
+            <p>От эксклюзивных спорткаров до гоночных шедевров — выбирайте мечту, садитесь за руль и ощутите мощь премиального авто на полную!</p>
+            <a href="#cars" class="button" id="main-action-button">Посмотреть автомобили</a>
+          </div>
+          <img src="assets/main-car.png" alt="Main car" class="main-image">
+        </div>
+      </section>
+
+      <div class="black-block"></div>
+    </main>
+    
+
+    <section class="cars" id="cars">
+      <div class="container">
+        <h2>Выберите автомобиль</h2>
+          <div class="cars-content" id="cars-content">
+            <aside class="cars-filter">
+              <ul>
+                <li class="active">Все марки</li>
+                <li>Lamborghini</li>
+                <li>Ferrari</li>
+                <li>Porsche</li>
+                <li>BMW</li>
+                <li>Mercedes</li>
+                <li>Chevrolet</li>
+                <li>Audi</li>
+                <li>Ford</li>
+              </ul>
+            </aside>
+            <div class="cars-items">
+              <article class="car">
+                <img src="https://testologia.ru/cars-images/1.png" alt="BMW M4">
+                <div class="car-details">
+                  <h4>BMW M4 Competition</h4>
+                  <p>Идеальный баланс скорости и стиля. BMW M4 Competition — 510 л.с. и драйв, созданный для покорения трасс и городских улиц.</p>
+                  <div class="car-action">
+                    <ul>
+                      <li>
+                        <div class="car-period">на 1 сутки</div>
+                        <div class="car-price">1450 $</div>
+                      </li>
+                        <li>
+                        <div class="car-period">на 1 сутки</div>
+                        <div class="car-price">1450 $</div>
+                      </li>
+                        <li>
+                        <div class="car-period">на 1 сутки</div>
+                        <div class="car-price">1450 $</div>
+                      </li>
+                    </ul>
+                    <a href="#order" class="button button_white">Забронировать</a>
+                  </div>
+                </div>
+              </article>
+
+              <!-- ИИ -->
+              <article class="car">
+                <img src="https://testologia.ru/cars-images/2.png" alt="BMW M5">
+                <div class="car-details">
+                  <h4>BMW M5</h4>
+                  <p>Бизнес-класс с душой гонщика. BMW M5: 600 л.с., интеллектуальный полный привод и комфорт для самых требовательных.</p>
+                  <div class="car-action">
+                    <ul>
+                      <li>
+                        <div class="car-period">на 1 сутки</div>
+                        <div class="car-price">1600 $</div>
+                      </li>
+                      <li>
+                        <div class="car-period">на 1-3 суток</div>
+                        <div class="car-price">1450 $ <span>/сут</span></div>
+                      </li>
+                      <li>
+                        <div class="car-period">на 3+ суток</div>
+                        <div class="car-price">1250 $ <span>/сут</span></div>
+                      </li>
+                    </ul>
+                    <a href="#order" class="button button_white">Забронировать</a>
+                  </div>
+                </div>
+              </article>
+              
+              <article class="car">
+                <img src="https://testologia.ru/cars-images/3.png" alt="Lamborghini Huracan Spyder Green">
+                <div class="car-details">
+                  <h4>Lamborghini Huracan Spyder Green</h4>
+                  <p>Воплощение скорости и страсти. Зеленый Lamborghini Huracan Spyder — мощь 640 л.с. и открытый верх для ярких приключений.</p>
+                  <div class="car-action">
+                    <ul>
+                      <li>
+                        <div class="car-period">на 1 сутки</div>
+                        <div class="car-price">3200 $</div>
+                      </li>
+                      <li>
+                        <div class="car-period">на 1-3 суток</div>
+                        <div class="car-price">2900 $ <span>/сут</span></div>
+                      </li>
+                      <li>
+                        <div class="car-period">на 3+ суток</div>
+                        <div class="car-price">2600 $ <span>/сут</span></div>
+                      </li>
+                    </ul>
+                    <a href="#order" class="button button_white">Забронировать</a>
+                  </div>
+                </div>
+              </article>
+              
+              <article class="car">
+                <img src="https://testologia.ru/cars-images/4.png" alt="Ferrari F8 Spider">
+                <div class="car-details">
+                  <h4>Ferrari F8 Spider</h4>
+                  <p>Мечта на колесах. Ferrari F8 Spider: 720 л.с., аэродинамика F1 и открытая кабина для тех, кто живет на полной скорости.</p>
+                  <div class="car-action">
+                    <ul>
+                      <li>
+                        <div class="car-period">на 1 сутки</div>
+                        <div class="car-price">3500 $</div>
+                      </li>
+                      <li>
+                        <div class="car-period">на 1-3 суток</div>
+                        <div class="car-price">3200 $ <span>/сут</span></div>
+                      </li>
+                      <li>
+                        <div class="car-period">на 3+ суток</div>
+                        <div class="car-price">2900 $ <span>/сут</span></div>
+                      </li>
+                    </ul>
+                    <a href="#order" class="button button_white">Забронировать</a>
+                  </div>
+                </div>
+              </article>
+              
+              <article class="car">
+                <img src="https://testologia.ru/cars-images/5.png" alt="Porsche 911 Targa 4S Yellow">
+                <div class="car-details">
+                  <h4>Porsche 911 Targa 4S Yellow</h4>
+                  <p>Элегантная мощь в ярком цвете. Porsche 911 Targa 4S: полный привод, 450 л.с. и уникальный стиль Targa</p>
+                  <div class="car-action">
+                    <ul>
+                      <li>
+                        <div class="car-period">на 1 сутки</div>
+                        <div class="car-price">1800 $</div>
+                      </li>
+                      <li>
+                        <div class="car-period">на 1-3 суток</div>
+                        <div class="car-price">1650 $ <span>/сут</span></div>
+                      </li>
+                      <li>
+                        <div class="car-period">на 3+ суток</div>
+                        <div class="car-price">1450 $ <span>/сут</span></div>
+                      </li>
+                    </ul>
+                    <a href="#order" class="button button_white">Забронировать</a>
+                  </div>
+                </div>
+              </article>
+              
+              <article class="car">
+                <img src="https://testologia.ru/cars-images/6.png" alt="Mercedes SL 55 AMG">
+                <div class="car-details">
+                  <h4>Mercedes SL 55 AMG</h4>
+                  <p>Классика спортивного шика. Mercedes SL 55 AMG: роскошь, кабриолет и мощь 469 л.с. для незабываемых поездок.</p>
+                  <div class="car-action">
+                    <ul>
+                      <li>
+                        <div class="car-period">на 1 сутки</div>
+                        <div class="car-price">1700 $</div>
+                      </li>
+                      <li>
+                        <div class="car-period">на 1-3 суток</div>
+                        <div class="car-price">1550 $ <span>/сут</span></div>
+                      </li>
+                      <li>
+                        <div class="car-period">на 3+ суток</div>
+                        <div class="car-price">1350 $ <span>/сут</span></div>
+                      </li>
+                    </ul>
+                    <a href="#order" class="button button_white">Забронировать</a>
+                  </div>
+                </div>
+              </article>
+              
+              <article class="car">
+                <img src="https://testologia.ru/cars-images/7.png" alt="BMW Z4">
+                <div class="car-details">
+                  <h4>BMW Z4</h4>
+                  <p>Компактный кабриолет для стильных путешествий. BMW Z4: идеальный союз маневренности, мощности и элегантного дизайна.</p>
+                  <div class="car-action">
+                    <ul>
+                      <li>
+                        <div class="car-period">на 1 сутки</div>
+                        <div class="car-price">1200 $</div>
+                      </li>
+                      <li>
+                        <div class="car-period">на 1-3 суток</div>
+                        <div class="car-price">1100 $ <span>/сут</span></div>
+                      </li>
+                      <li>
+                        <div class="car-period">на 3+ суток</div>
+                        <div class="car-price">950 $ <span>/сут</span></div>
+                      </li>
+                    </ul>
+                    <a href="#order" class="button button_white">Забронировать</a>
+                  </div>
+                </div>
+              </article>
+              
+              <article class="car">
+                <img src="https://testologia.ru/cars-images/8.png" alt="Mercedes C180 Convertible">
+                <div class="car-details">
+                  <h4>Mercedes C180 Convertible</h4>
+                  <p>Идеальный выбор для солнечного дня. Mercedes C180 Convertible: кабриолет для легкого и комфортного вождения.</p>
+                  <div class="car-action">
+                    <ul>
+                      <li>
+                        <div class="car-period">на 1 сутки</div>
+                        <div class="car-price">1000 $</div>
+                      </li>
+                      <li>
+                        <div class="car-period">на 1-3 суток</div>
+                        <div class="car-price">900 $ <span>/сут</span></div>
+                      </li>
+                      <li>
+                        <div class="car-period">на 3+ суток</div>
+                        <div class="car-price">800 $ <span>/сут</span></div>
+                      </li>
+                    </ul>
+                    <a href="#order" class="button button_white">Забронировать</a>
+                  </div>
+                </div>
+              </article>
+              
+              <article class="car">
+                <img src="https://testologia.ru/cars-images/9.png" alt="Chevrolet Corvette Orange">
+                <div class="car-details">
+                  <h4>Chevrolet Corvette Orange</h4>
+                  <p>Яркий, мощный, незабываемый. Chevrolet Corvette в оранжевом цвете: 495 л.с. и стиль, который говорит сам за себя.</p>
+                  <div class="car-action">
+                    <ul>
+                      <li>
+                        <div class="car-period">на 1 сутки</div>
+                        <div class="car-price">1400 $</div>
+                      </li>
+                      <li>
+                        <div class="car-period">на 1-3 суток</div>
+                        <div class="car-price">1250 $ <span>/сут</span></div>
+                      </li>
+                      <li>
+                        <div class="car-period">на 3+ суток</div>
+                        <div class="car-price">1100 $ <span>/сут</span></div>
+                      </li>
+                    </ul>
+                    <a href="#order" class="button button_white">Забронировать</a>
+                  </div>
+                </div>
+              </article>
+
+              <article class="car">
+                <img src="https://testologia.ru/cars-images/10.png" alt="Audi R8 Blue">
+                <div class="car-details">
+                  <h4>Audi R8 Blue</h4>
+                  <p>Суперкар, созданный для влюбленных в скорость. Audi R8 Blue: полный привод, 570 л.с. и потрясающий дизайн.</p>
+                  <div class="car-action">
+                    <ul>
+                      <li>
+                        <div class="car-period">на 1 сутки</div>
+                        <div class="car-price">2000 $</div>
+                      </li>
+                      <li>
+                        <div class="car-period">на 1-3 суток</div>
+                        <div class="car-price">1850 $ <span>/сут</span></div>
+                      </li>
+                      <li>
+                        <div class="car-period">на 3+ суток</div>
+                        <div class="car-price">1600 $ <span>/сут</span></div>
+                      </li>
+                    </ul>
+                    <a href="#order" class="button button_white">Забронировать</a>
+                  </div>
+                </div>
+              </article>
+              
+              <article class="car">
+                <img src="https://testologia.ru/cars-images/11.png" alt="Chevrolet Corvette White">
+                <div class="car-details">
+                  <h4>Chevrolet Corvette White</h4>
+                  <p>Классическая мощь в изысканном цвете. Chevrolet Corvette White: мощность, динамика и стиль для настоящих ценителей.</p>
+                  <div class="car-action">
+                    <ul>
+                      <li>
+                        <div class="car-period">на 1 сутки</div>
+                        <div class="car-price">1350 $</div>
+                      </li>
+                      <li>
+                        <div class="car-period">на 1-3 суток</div>
+                        <div class="car-price">1200 $ <span>/сут</span></div>
+                      </li>
+                      <li>
+                        <div class="car-period">на 3+ суток</div>
+                        <div class="car-price">1000 $ <span>/сут</span></div>
+                      </li>
+                    </ul>
+                    <a href="#order" class="button button_white">Забронировать</a>
+                  </div>
+                </div>
+              </article>
+              
+              <article class="car">
+                <img src="https://testologia.ru/cars-images/12.png" alt="Ford Mustang Convertible Black">
+                <div class="car-details">
+                  <h4>Ford Mustang Convertible Black</h4>
+                  <p>Легенда в открытом формате. Ford Mustang Convertible Black: 450 л.с., культовый стиль и свобода под открытым небом.</p>
+                  <div class="car-action">
+                    <ul>
+                      <li>
+                        <div class="car-period">на 1 сутки</div>
+                        <div class="car-price">1250 $</div>
+                      </li>
+                      <li>
+                        <div class="car-period">на 1-3 суток</div>
+                        <div class="car-price">1150 $ <span>/сут</span></div>
+                      </li>
+                      <li>
+                        <div class="car-period">на 3+ суток</div>
+                        <div class="car-price">1000 $ <span>/сут</span></div>
+                      </li>
+                    </ul>
+                    <a href="#order" class="button button_white">Забронировать</a>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+      </div>
+    </section>
+
+    <section class="order" id="order">
+      <div class="container">
+        <img src="assets/order-car.png" alt="order car">
+        <form>
+          <h3>Забронировать автомобиль</h3>
+          <p>Заполните контактные данные, и мы перезвоним вам для обсуждения деталей и подтверждения бронирования</p>
+          <div class="order-form">
+            <input type="text" placeholder="Автомобиль" id="car">
+            <input type="text" placeholder="Ваше имя" id="name">
+            <input type="text" placeholder="Ваш телефон" id="phone">
+            <button class="button" type="button" id="order-action">Забронировать</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="logo">
+          <img src="assets/logo.png" alt="logo">
+        </div>
+        <div class="rights">все права защишены</div>
+      </div>
+    </footer>
+
+    <!-- Скрипты -->
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
