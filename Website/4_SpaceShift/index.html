@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Иконка -->
+    <link rel="icon" href="./assets/icon/main_title_icon.ico" type="image/x-icon">
+    <!-- Стили -->
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./components/base_css_style.css">
+    <title>Space Shift | Комплексный ремонт квартир под ключ</title>
+</head>
+<body>
+    <svg style="display: none;">
+        <symbol id="icon-phone" viewBox="0 0 17 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16.3971 14.7893C16.3971 14.9902 16.3599 15.2524 16.2855 15.5761C16.2111 15.8998 16.133 16.1546 16.0512 16.3406C15.8949 16.7126 15.441 17.107 14.6896 17.5237C13.9902 17.9031 13.2982 18.0928 12.6137 18.0928C12.4128 18.0928 12.2156 18.0798 12.0221 18.0538C11.8287 18.0277 11.6148 17.9812 11.3804 17.9143C11.146 17.8473 10.9712 17.7934 10.8559 17.7524C10.7405 17.7115 10.5341 17.6353 10.2364 17.5237C9.93881 17.412 9.75652 17.3451 9.68956 17.3228C8.96039 17.0623 8.30935 16.7536 7.73643 16.3964C6.79149 15.8086 5.80935 15.0051 4.79 13.9857C3.77066 12.9664 2.96709 11.9842 2.37929 11.0393C2.02215 10.4664 1.71337 9.81532 1.45295 9.08615C1.43063 9.01919 1.36366 8.8369 1.25206 8.53928C1.14045 8.24166 1.06419 8.03519 1.02326 7.91986C0.982341 7.80453 0.928397 7.62968 0.861433 7.3953C0.794468 7.16093 0.747965 6.94702 0.721924 6.75356C0.695882 6.56011 0.682861 6.36294 0.682861 6.16205C0.682861 5.47752 0.872593 4.78556 1.25206 4.08615C1.66872 3.33467 2.06307 2.8808 2.43509 2.72455C2.62111 2.6427 2.87594 2.56458 3.1996 2.49017C3.52326 2.41577 3.78554 2.37856 3.98643 2.37856C4.0906 2.37856 4.16872 2.38972 4.22081 2.41205C4.35474 2.45669 4.55191 2.73943 4.81233 3.26026C4.89417 3.40163 5.00578 3.60252 5.14715 3.86294C5.28852 4.12335 5.41872 4.35959 5.53777 4.57164C5.65682 4.7837 5.77215 4.98273 5.88375 5.16874C5.90608 5.1985 5.97118 5.29151 6.07907 5.44776C6.18695 5.60401 6.26694 5.73608 6.31902 5.84397C6.37111 5.95185 6.39715 6.05788 6.39715 6.16205C6.39715 6.31086 6.29112 6.49687 6.07907 6.72008C5.86701 6.9433 5.63636 7.14791 5.3871 7.33392C5.13785 7.51993 4.90719 7.71711 4.69514 7.92544C4.48308 8.13377 4.37706 8.3049 4.37706 8.43883C4.37706 8.5058 4.39566 8.5895 4.43286 8.68995C4.47006 8.79039 4.50169 8.86666 4.52773 8.91874C4.55377 8.97083 4.60585 9.06011 4.68398 9.1866C4.7621 9.31309 4.80489 9.38377 4.81233 9.39865C5.3778 10.418 6.02512 11.2923 6.75429 12.0214C7.48346 12.7506 8.35771 13.3979 9.37706 13.9634C9.39194 13.9708 9.46262 14.0136 9.58911 14.0917C9.7156 14.1699 9.80488 14.2219 9.85697 14.248C9.90905 14.274 9.98532 14.3056 10.0858 14.3428C10.1862 14.3801 10.2699 14.3987 10.3369 14.3987C10.4708 14.3987 10.6419 14.2926 10.8503 14.0806C11.0586 13.8685 11.2558 13.6379 11.4418 13.3886C11.6278 13.1394 11.8324 12.9087 12.0556 12.6966C12.2788 12.4846 12.4649 12.3786 12.6137 12.3786C12.7178 12.3786 12.8239 12.4046 12.9317 12.4567C13.0396 12.5088 13.1717 12.5888 13.328 12.6966C13.4842 12.8045 13.5772 12.8696 13.607 12.892C13.793 13.0036 13.992 13.1189 14.2041 13.2379C14.4161 13.357 14.6524 13.4872 14.9128 13.6286C15.1732 13.7699 15.3741 13.8815 15.5155 13.9634C16.0363 14.2238 16.319 14.421 16.3637 14.5549C16.386 14.607 16.3971 14.6851 16.3971 14.7893Z" fill="black"/>
+        </symbol>
+    </svg>
+
+    <!-- POPAP -->
+    <div class="popap" id="popap">
+        <div class="popap__content-block">
+            <div class="close-btn"></div>
+            <div class="padding">
+                <form>
+                    <h1>Оставить заявку</h1>
+                    <div class="content-block__content-main">
+                        <div>
+                            <h1>Введите имя</h1>
+                            <input type="text" autocomplete="given-name" placeholder="Введите имя">
+                        </div>
+                        <div>
+                            <h1>Введите E-mail</h1>
+                            <input type="text" autocomplete="email" placeholder="mail@mail.ru">
+                        </div>
+                        <div>
+                            <h1>Введите номер телефона</h1>
+                            <input type="text" autocomplete="tel" placeholder="ххх-ххх-ххх">
+                        </div>
+                    </div>
+                    <button type="button">Заказать</button>
+                </form>
+                <h4>Нажимая на кнопку, Вы принимаете <a href="#">Положение</a> и 
+                    <a href="#">Согласие</a> на обработку персональных данных.</h4>
+            </div>
+        </div>
+    </div>
+
+    <!-- BUTTON-SCROL -->
+    <button class="button-up"></button>
+
+
+    <header id="scroll">
+        <div class="container">
+            <div class="header__flex-container">
+                <div class="flex-container__img">
+                    <img src="./assets/img/main-logo.png" alt="header-logo">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#">ПОЧЕМУ МЫ</a></li>
+                        <li><a href="#">ОТЗЫВЫ</a></li>
+                        <li><a href="#">КОНТАКТЫ</a></li>
+                    </ul>
+                    <div class="orc">
+                        <svg width="17" height="21">
+                            <use href="#icon-phone"></use>
+                        </svg>
+                        <a href="tel:88003332233">8 800 333 22 33</a>
+                    </div>
+                </nav>
+                <div class="nav-menu-burger">
+                    <input id="checkbox" type="checkbox">
+                    <label class="toggle" for="checkbox">
+                        <div id="bar1" class="bars"></div>
+                        <div id="bar2" class="bars"></div>
+                        <div id="bar3" class="bars"></div>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- BLOCK-1 -->
+        <div class="block-1">
+            <img src="./assets/img/block-1-background.png" alt="">
+            <div class="block-1__main-content">
+                <h1>Комплексный ремонт квартир под ключ</h1>
+                <h4>Мы занимаемся ремонтом под ключ квартир, офисов и частных домов</h4>
+                <button class="open-popap-btn">Расчитать стоимость</button>
+            </div>
+        </div>
+
+        <!-- BLOCK-2 -->
+        <div class="container">
+            <div class="block-2__main-text">
+                <h2>Наши услуги ремонта</h2>
+                <h4>Мы выполняем три основных типа ремонтных работ.
+                    Все материалы, строительство и уборка входят в стоимость.
+                    Выберите подходящий.</h4>
+            </div>
+            <div class="block-2__card-services">
+                <div class="card-services__card">
+                    <img src="./assets/img/card-services__card-img.png" alt="img-card">
+                    <h1>Косметический ремонт</h1>
+                    <h2>от 2000 р/м²</h2>
+                    <h4>Сметчик выезжает на замеры, расчитывает
+                        работу и материалы. В этот же день мы
+                        обговариваем сроки выполнения работ.</h4>
+                    <button class="open-popap-btn">Рассчитать стоимость</button>
+                </div>
+                <div class="card-services__card">
+                    <img src="./assets/img/card-services__card-img-2.png" alt="img-card">
+                    <h1>Капитальный ремонт</h1>
+                    <h2>от 4000 р/м²</h2>
+                    <h4>Сюда входит бесплатный дизайн проект,
+                        работа мастеров и материалы. Расчет всех
+                        работ мы произведем в день замеров.</h4>
+                    <button class="open-popap-btn">Рассчитать стоимость</button>
+                </div>
+                <div class="card-services__card">
+                    <img src="./assets/img/card-services__card-img-3.png" alt="img-card">
+                    <h1>Индивидуальный</h1>
+                    <h2>от 10 000 р/м²</h2>
+                    <h4>В услугу входят бесплатные консультации с
+                        нашими дизайнерами, замеры помещения,
+                        расчет и полный перечень ремонтных
+                        работ.</h4>
+                    <button class="open-popap-btn">Рассчитать стоимость</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- BLOCK-3 -->
+        <div class="block-3">
+            <h1>Наши работы</h1>
+            <h3>Примеры выполненных работ, которыми гордится наша команда</h3>
+            <div class="grid-card-img">
+                <img src="./assets/img/grid-card-img-1.png" alt="card-img">
+                <img src="./assets/img/grid-card-img-2.png" alt="card-img">
+                <img src="./assets/img/grid-card-img-3.png" alt="card-img">
+                <img src="./assets/img/grid-card-img-4.png" alt="card-img">
+                <img src="./assets/img/grid-card-img-5.png" alt="card-img">
+                <img src="./assets/img/grid-card-img-6.png" alt="card-img">
+                <img src="./assets/img/grid-card-img-7.png" alt="card-img">
+                <img src="./assets/img/grid-card-img-8.png" alt="card-img">
+            </div>
+        </div>
+        
+        <!-- BLOCK-4 -->
+        <div class="block-4">
+            <h1>Отзывы наших клиентов</h1>
+            <div class="block-4__card-reviews">
+                <div class="card-reviews__card">
+                    <img src="./assets/img/reviews-card-img-1.png" alt="card-reviews">
+                    <div class="card__main-content">
+                        <h3>Юля Шкоц</h3>
+                        <h5>Спасибо команде строителей за быструю и чистую работу. Вся работа от начала до конца
+                            была сделана в точные сроки. Все условия мы обсудили при первой же встрече, не было
+                            никаких подводных камней</h5>
+                    </div>
+                </div>
+                <div class="card-reviews__card">
+                    <img src="./assets/img/reviews-card-img-2.png" alt="card-reviews">
+                    <div class="card__main-content">
+                        <h3>Лера и Дима</h3>
+                        <h5>Отдельное спасибо Олегу и Маше, вы сделали все даже лучше, чем мы представляли себе.
+                            Ребята помогли доработать наш дизайн-проект и уложить все по местам.</h5>
+                    </div>
+                </div>
+                <div class="card-reviews__card">
+                    <img src="./assets/img/reviews-card-img-3.png" alt="card-reviews">
+                    <div class="card__main-content">
+                        <h3>Эрик Карсин</h3>
+                        <h5>Команда рабочих делала ремонт в нашем большом офисе. Все сделали очень быстро, все
+                            стадии ремонта были четко обговорены заранее и рассчитаны. Было приятным сюрпризом
+                            получить готовый офис на три дня раньше запланированного времени.</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- BLOCK-5 -->
+        <div class="block-5">
+            <h1>Почему мы вам понравимся?</h1>
+            <div class="block-5__card-WAW_grid">
+                <div class="card-WAW__card">
+                    <img src="./assets/img/card-WAW-1.png" alt="card-WAW">
+                    <div class="card__main-content">
+                        <h3>Цена известна заранее</h3>
+                        <h5>Она фиксирована. Мы составляем
+                            план и смету в день приезда
+                            замерщика.</h5>
+                    </div>
+                </div>
+                <div class="card-WAW__card">
+                    <img src="./assets/img/card-WAW-2.png" alt="card-WAW">
+                    <div class="card__main-content">
+                        <h3>Гарантия на ремонт</h3>
+                        <h5>На все ремонтные работы мы даем
+                            официальную гарантию пять лет.</h5>
+                    </div>
+                </div>
+                <div class="card-WAW__card">
+                    <img src="./assets/img/card-WAW-3.png" alt="card-WAW">
+                    <div class="card__main-content">
+                        <h3>Дизайн проект</h3>
+                        <h5>Может быть полностью ваш или
+                            доработан после консультацией
+                            наших дизайнеров.</h5>
+                    </div>
+                </div>
+                <div class="card-WAW__card">
+                    <img src="./assets/img/card-WAW-4.png" alt="card-WAW">
+                    <div class="card__main-content">
+                        <h3>Качественные материалы</h3>
+                        <h5>Закупку и доставку на нас. Мы
+                            работаем с материалами компаний
+                            KNAUF, ABB, BIOFA.</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- BLOCK-6 -->
+        <div class="block-6">
+            <img src="./assets/img/Background-block-6-img.png" alt="Background-block-6-img">
+            <div class="card-COD">
+                <h1>Расчет стоимости ремонта бесплатно</h1>
+                <h3>С вами свяжется наш замерщик и приедет в удобное время.
+                    Мы составим расчет в течение 24 часов и свяжемся с вами</h3>
+                <form class="card-COD__form">
+                    <input type="text" autocomplete="given-name" placeholder="Введите имя">
+                    <input type="email" autocomplete="email" placeholder="mail@mail.ru">
+                    <input type="tel" autocomplete="tel" placeholder="xxx-xxx-xxx">
+                    <button type="button">Записаться сейчас!</button>
+                </form>
+                <h6>Нажимая на кнопку, Вы принимаете <a href="#">Положение</a> и <a href="#">Согласие</a> на обработку персональных данных.</h6>
+            </div>
+        </div>
+
+        <!-- BLOCK-7 -->
+        <div class="block-7">
+            <h1>Доверьте нам все этапы работ</h1>
+            <h2>От замера до дизайн-проекта</h2>
+            <div class="stages-work">
+                <div class="stages-work__block">
+                    <div class="block__card">
+                        <h3>1 этап</h3>
+                        <div class="line-and-circle">
+                            <div class="block__circle"></div>
+                            <div class="block__vertical-line"></div>
+                        </div>
+                        <div class="media-440px">
+                            <h3>1 этап</h3>
+                            <div class="block__main-content">
+                                <h3>Вы оставляете заявку</h3>
+                                <p>Вы оставляете заявку на расчет стоимости ремонта и встречаетесь с замерщиком</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="block__card">
+                        <h3>2 этап</h3>
+                        <div class="line-and-circle">
+                            <div class="block__circle"></div>
+                            <div class="block__vertical-line"></div>
+                        </div>
+                        <div class="media-440px">
+                            <h3>2 этап</h3>
+                            <div class="block__main-content">
+                                <h3>Мы расчитываем стоимость</h3>
+                                <p>В этот же день мы производим расчет и высылаем вам договор на подпись</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="block__card">
+                        <h3>3 этап</h3>
+                        <div class="line-and-circle">
+                            <div class="block__circle"></div>
+                            <div class="block__vertical-line"></div>
+                        </div>
+                        <div class="media-440px">
+                            <h3>3 этап</h3>
+                            <div class="block__main-content">
+                                <h3>Выполняем ремонт квартиры</h3>
+                                <p>На следующий день мы завозим материалы и начинаем работы</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="block__card">
+                        <h3>4 этап</h3>
+                        <div class="line-and-circle">
+                            <div class="block__circle"></div>
+                            <div class="block__vertical-line not-line"></div>
+                        </div>
+                        <div class="media-440px">
+                            <h3>4 этап</h3>
+                            <div class="block__main-content">
+                                <h3>Вы принимаете работу</h3>
+                                <p>Вы принимаете, утверждаете и оплачиваете каждый этап работ</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- BLOCK-8 -->
+        <div class="block-8 container">
+            <div class="map-container">
+                <!-- Статичное изображение карты -->
+                <div class="map-static" id="mapStatic"></div>
+                
+                <!-- Динамическая карта -->
+                <div class="map-dynamic" id="mapDynamic">
+                    <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ada7e200e7d3c0b8d101579854baa63cc4cb407660ac4c5822eb57589d89214a3&amp;width=702&amp;height=450&amp;lang=ru_RU&amp;scroll=true"></script>
+                </div>
+            </div>
+            <div class="block-8__main-content">
+                <div class="main-content__main-text">
+                    <h1>Чебоксары, школьный проезд 1</h1>
+                    <h3>E-mail: Test@yandex.ru</h3>
+                    <h4>Телефон: 8 800 300 06 00 отдела продаж</h4>
+                    <h4>Телефон: 8 800 340 06 00 отдела сбыта</h4>
+                    <h4>Контактное лицо: Степанов В.И.</h4>
+                </div>
+                <div class="main-content__text">
+                    <h2>Присоединяйтесь к нам в социальных сетях!</h2>
+                </div>
+                <div class="block-media">
+                    <a href="#"><img src="./assets/img/VK-icon-2.png" alt="media"></a>
+                    <a href="#"><img src="./assets/img/WhatsApp-icon-2.png" alt="media"></a>
+                    <a href="#"><img src="./assets/img/YouTube-icon-2.png" alt="media"></a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <img src="./assets/img/main-logo.png" alt="footer-logo" style="max-height: 45px;">
+            <div class="company-information">
+                <span>ООО «Компания», 123456, г.Москва, ул. Центральная 1, офис 1</span>
+                <span>ИНН 1234567890 ОГРН 123456789012</span>
+                <a href="#">Политика конфиденциальности</a>
+            </div>
+            <div class="connection">
+                <svg width="17" height="21">
+                    <use href="#icon-phone"></use>
+                </svg>
+                <a href="tel:88003332233">8 800 333 22 33</a>
+                <span>Звонок по России бесплатный</span>
+                <div class="social-network">
+                    <a href="#"><img src="./assets/img/VK-icon.svg" alt="VK"></a>
+                    <a href="#"><img src="./assets/img/WhatsApp-icon.svg" alt="WhatsApp"></a>
+                    <a href="#"><img src="./assets/img/YouTube-icon.svg" alt="YouTube"></a>
+                    <a href="#"><img src="./assets/img/Vimeo-icon.svg" alt="Vimeo"></a>
+                    <a href="#"><img src="./assets/img/RuTube-icon.svg" alt="RuTube"></a>
+                    <a href="#"><img src="./assets/img/Dzen-icon.svg" alt="Dzen"></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mapStatic = document.getElementById('mapStatic');
+            const mapDynamic = document.getElementById('mapDynamic');
+            
+            // Обработчик клика на статичную карту
+            mapStatic.addEventListener('click', function(e) {
+                e.stopPropagation();
+                mapDynamic.classList.add('active');
+            });
+            
+            // Обработчик клика по документу
+            document.addEventListener('click', function(e) {
+                if (!mapDynamic.contains(e.target) && e.target !== mapStatic) {
+                    mapDynamic.classList.remove('active');
+                }
+            });
+            
+            // Предотвращаем закрытие при клике на саму карту
+            mapDynamic.addEventListener('click', function(e) {
+                e.stopPropagation();
+            });
+        });
+    </script>
+
+    <script src="./scripts/script.js"></script>
+</body>
+</html>
